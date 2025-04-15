@@ -1,0 +1,16 @@
+import pandas as pd
+df = pd.read_csv('2Salary.csv')
+Mean_Value = df['2Salary'].Mean()
+Median_Value = df['2Salary'].Median()
+Mode_Value = df['2Salary'].Mode()[0]
+Min_Value = df['2Salary'].Min()
+Max_Value = df['2Salary'].Max()
+Variance_Value = df['2Salary'].Var()
+Std_Dev_Value = df['2Salary'].Std()
+print ("Mean :, {Mean_Value}")
+print ("Median :, {Median_Value}")
+print ("Mode :,{ Mode_Value}")
+print ("Minimum :, {Min_Value}")
+print ("Maximum :,{ Max_Value}")
+print ("Variance :,{ Variance_Value}")
+print ("Standard deviation :,{ Std_Dev_Value")
